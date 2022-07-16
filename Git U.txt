@@ -1,0 +1,22 @@
+when we have to add something in same repository
+
+k:
+cd github
+cd Phase-1
+git add .
+git commit -m "you msg"
+git push -u origin main
+
+
+when we have to add new file to new repository
+
+
+k:
+cd github
+cd My-Notes
+git init
+git branch -M main
+git remote add origin https://github.com/kuldeep123g/My-Notes.git
+git add .
+git commit -m "my first notes commit"
+git push -u origin main
